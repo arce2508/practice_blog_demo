@@ -1,0 +1,32 @@
+.show-layout[class^="container"],
+.show-layout [class^="container"],
+.show-layout[class*=" container"],
+.show-layout [class*=" container"],
+.show-layout.row,
+.show-layout .row,
+.show-layout[class^="col"],
+.show-layout [class^="col"],
+.show-layout[class*=" col"],
+.show-layout [class*=" col"] {
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+}
+
+.show-layout[class^="container"],
+.show-layout [class^="container"],
+.show-layout[class*=" container"],
+.show-layout [class*=" container"] {
+  border: 2px solid #00f;
+}
+
+.show-layout.row,
+.show-layout .row {
+  border: 2px solid #f00;
+}
+
+.show-layout[class^="col"],
+.show-layout [class^="col"],
+.show-layout[class*=" col"],
+.show-layout [class*=" col"] {
+  border: 2px solid #0f0;
+}
